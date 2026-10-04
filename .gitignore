@@ -218,3 +218,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# Maya crash logs and temporary files
+*.log
+*.swatch
+*_.ma
+*_.mb
+
+# Maya workspace state and user preferences settings
+.mayaSwatches/
+commandHistory.txt
+workspace.mel
